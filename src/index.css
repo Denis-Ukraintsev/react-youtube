@@ -32,8 +32,8 @@ code {
 .lds-hourglass {
   display: inline-block;
   position: relative;
-  width: 80px;
-  height: 80px;
+  width: 40px;
+  height: 40px;
 }
 .lds-hourglass:after {
   content: " ";
@@ -43,7 +43,7 @@ code {
   height: 0;
   margin: 8px;
   box-sizing: border-box;
-  border: 32px solid blue;
+  border: 15px solid blue;
   border-color: blue transparent blue transparent;
   animation: lds-hourglass 1.2s infinite;
 }
